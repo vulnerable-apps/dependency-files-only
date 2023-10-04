@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dependency-files-only"
+version = "0.1.0"
+description = ""
+authors = ["kmcquade <kinnairdm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dependency_files_only"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
